@@ -4,7 +4,7 @@ https://github.com/next-l/enju_leaf/wiki/Install
 
 ## 前提
 1. Visual Studio Code
-  * [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)拡張機能が有効
+    * [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) 拡張機能が有効
 
 ## 利用方法
 1. Visual Studio Codeを開く。
@@ -15,5 +15,7 @@ https://github.com/next-l/enju_leaf/wiki/Install
 3. ターミナルを開く。
     * Windows: <kbd>Ctrl</kbd> + <kbd>@</kbd>
     * Mac: <kbd>command</kbd> + <kbd>@</kbd>
-4. `bash enju_setup.sh`を打って<kbd>Enter</kbd>
-5. ブラウザで`http://127.0.0.1:8080/`を開く
+4. enjuを起動する。
+    * 初回起動時は`bash enju_setup.sh`を打って<kbd>Enter</kbd>
+    * 2回目以降は`docker compose up -d`を打って<kbd>Enter</kbd>
+6. ブラウザで`http://127.0.0.1:8080/`を開く
