@@ -1,0 +1,3 @@
+[submodule "enju_leaf"]
+	path = enju_leaf
+	url = https://github.com/next-l/enju_leaf.git
